@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 12-09-2017, 01:52:09 PM
     Author     : Roberto
 */
@@ -15,8 +15,58 @@ header{
     width: 100%;
 }
 
+.social-bar{
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+.icon-facebook2{
+  background: blue;
+}
+.icon-whatsapp{
+  background: green;
+}
+.icon-google3{
+  background: red;
+}
+.icon-earth{
+  background: black;
+}
+.icon-sphere{
+  background: black;
+}
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+  border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1 rem 0 0 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
 .navbar{
-    margin-bottom: 0;
+    margin-bottom: 0.icon:first-child{
+      border-radius: 1rem 0 0 0;
+    }
+    .icon:last-child{
+      border-radius: 0 0 0 1rem;
+    }
 }
 
 .jumbotron{

@@ -11,6 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/autogenerado.js"></script>
     </head>
     <body>
         <header>
@@ -35,15 +37,8 @@ and open the template in the editor.
                                     Novedades <span class="caret"></span>
                                 </a>
                                 <!-- Script para categorias de las NOVEDADES EN MENU (Inicio) -->
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="novedades.html">Categoria 1</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Categoria 2</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Categoria 3</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Categoria 4</a></li>
-                                    <li class="divider"></li>
+                                <ul class="dropdown-menu" role="menu" id="ulMenu" >
+                                    
                                 </ul>
                                 <!-- Script para categorias de las NOVEDADES EN MENU (Final) -->
                             </li>
@@ -139,13 +134,9 @@ and open the template in the editor.
 
                 <!-- Script para categorias de las NOVEDADES (Inicio) -->
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <audio src="http://195.154.182.222:25316/;&type=mp3" controls></audio>
-                    <ul class="list-group">
+                    <audio src="http://195.154.182.222:25316/;&type=mp3" controls class="reproductor"></audio>
+                    <ul class="list-group" id="ulNov">
                         <a href="#" class="list-group-item active">Novedades</a>
-                        <a href="#" class="list-group-item">Categoria 1</a>
-                        <a href="#" class="list-group-item">Categoria 2</a>
-                        <a href="#" class="list-group-item">Categoria 3</a>
-                        <a href="#" class="list-group-item">Categoria 4</a>
                     </ul>
                 </div>
                 <!-- Script para categorias de las NOVEDADES (Final) -->
@@ -178,11 +169,11 @@ and open the template in the editor.
 
         <footer>
             <div class="container">
-                <h3>By Roberto Carlos</h3>
+                <h3>By Shobe se la come</h3>
             </div>
         </footer>
 
-        <script src="js/jquery.js"></script>
+        
         <script src="js/bootstrap.js"></script>
     </body>
 </html>

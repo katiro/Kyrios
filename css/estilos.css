@@ -49,6 +49,9 @@ header{
 .icon-sphere{
   background: black;
 }
+.icon-library{
+  background: black;
+}
 .icon:first-child{
   border-radius: 1rem 0 0 0;
 }

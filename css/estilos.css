@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12-09-2017, 01:52:09 PM
+    Author     : Roberto
+*/
+
+/*-- HEADER --*/
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.social-bar{
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+.icon-facebook2{
+  background: blue;
+}
+.icon-whatsapp{
+  background: green;
+}
+.icon-google3{
+  background: red;
+}
+.icon-earth{
+  background: black;
+}
+.icon-sphere{
+  background: black;
+}
+.icon-library{
+  background: black;
+}
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+  border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1 rem 0 0 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+.navbar{
+    margin-bottom: 0.icon:first-child{
+      border-radius: 1rem 0 0 0;
+    }
+    .icon:last-child{
+      border-radius: 0 0 0 1rem;
+    }
+}
+
+.jumbotron{
+    background: #428BCA;
+    color: white;
+    padding: 20px 0;
+    padding-top: 60px;
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.post .post-titles{
+    border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+    color: #333;
+}
+
+.post .thumb{
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img{
+    width: 100%
+}
+
+.post .contenedor-botones{
+    width: 100%;
+}
+
+footer{
+    background: #2c3e50;
+    color: white;
+}
+
+.cat{
+    background: #2c3e50;
+    color: white;
+}
+
+.cat-text{
+    background: #2c3e50;
+    border: 20px;
+    color: white;
+}
+
+.elemento{
+    color: #333;
+    border-bottom: 1px solid #999;
+}
+
+.tablas{
+    margin-bottom: 30px;
+}
+
+.btn-success{
+    background: blue;
+}
+.reproductor{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
